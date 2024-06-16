@@ -1,0 +1,52 @@
+
+
+Label.normal{
+    -fx-background-color: rgb(0, 183, 255);
+}
+
+Label.second{
+    -fx-background-color: rgb(0, 74, 103);
+}
+
+Label.second{
+    -fx-background-color: rgb(0, 30, 42);
+}
+
+Border{
+    -fx-background-color: rgb(0, 36, 125);
+    -fx-pref-width: 200px;
+
+}
+
+Border JFXButton{
+    -fx-pref-width: 100;
+    -fx-pref-height: 50;
+    -fx-background-color: rgb(255, 255, 255);
+
+}
+
+Blocos{
+    -fx-pref-width: 40;
+    -fx-pref-height: 80;
+    -fx-max-width: 80;
+    -fx-max-height: 40;
+}
+
+ Circle{
+    -fx-effect: dropshadow(three-pass-box,#000000,8,0.1,1,1);
+}
+
+Actores Circle{
+    -fx-effect: dropshadow(three-pass-box,#0000007f,8,0.1,1,1);
+}
+
+Tabuleiro{
+    -fx-max-width: 800;
+    -fx-max-height: 500;
+    -fx-background-color: aqua;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(three-pass-box,#0000002d,8,0.5,1,1);
+    -fx-border-color: aqua;
+}
+
+
