@@ -7,8 +7,8 @@ import javafx.scene.paint.Paint;
 import javafx.scene.shape.Circle;
 
 public class Blocos extends StackPane{
-    Circle cr = new Circle(10, 10, 20);
-    Label l=new Label();
+    private Circle cr = new Circle(10, 10, 20);
+    private Label l=new Label();
 
     public Blocos(String p) {
         l.setText("");
@@ -26,4 +26,20 @@ public class Blocos extends StackPane{
        
     }
 
+    public Circle getCr() {
+        return cr;
+    }
+
+    public void setCr(Circle cr) {
+        this.cr = cr;
+    }
+
+    public Label getL() {
+        return l;
+    }
+
+    public void setL(Label l) {
+        this.l = l;
+    }
+    
 }
