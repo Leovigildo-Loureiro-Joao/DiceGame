@@ -12,34 +12,65 @@ import javafx.util.Duration;
 
 public class Actores extends StackPane{
     private int posicao;
-    private String andarilho="llbbllbbddddbbllllllccccccllbbbblllllbbddccccccllbbllclllbbbddbbllbbddddbddcdddbddddcd";
-    public Actores() {
+    private String nome;
+    private String andarilho;
+    private final String andarilhC="llbbllbbddddbbllllllccccccllbbbblllllbbddcCccclllbbllclllbbbddbbllbbddddbddcdddbddddcdGTGTd";
+    private final String andarilhI="ddccddccllllccddddddbbbbbbddccccdddddccllbBbbbdddccddbdddcccllccddccllllcllblllcllllblGTGTl";
+    public Actores(String nome) {
         setMaxWidth(50);
         setMaxHeight(50);
+        this.nome=nome;
         this.getChildren().add(new Circle(5, Paint.valueOf("rgb("+new Random().nextInt(255)+","+new Random().nextInt(255)+","+new Random().nextInt(255)+")")));
     }
-
-    public int Anda(){
+        /* 
+        l: inidica a esquerda L: inidica a Megaesquerda 
+        d: inidica a direita D: inidica a Megadireita
+        c: inidica cima C: inidica a Megacima
+        b: inidica baixo B: inidica a Megabaixo
+        T: inidica Diogonal Direita cima   G: inidica Diogonal Direita baixo
+        P: inidica Diogonal esquerda cima   H: inidica Diogonal esquerda baixo
+        */
+    public int Anda(String t,boolean avanca){
+        andarilho=avanca?andarilhC:andarilhI;
         ScaleTransition td = new ScaleTransition(Duration.millis(500), this);
         td.setFromY(2);
         td.setToY(1);   
         td.setFromX(2);
         td.setToX(1);   
         td.play();
-        if (andarilho.charAt(posicao)=='l'||andarilho.charAt(posicao)=='d') {
-            TranslateTransition tr= new TranslateTransition(Duration.millis(500), this) ;
-            tr.setFromX(this.getTranslateX());        
-            tr.setToX(this.getTranslateX()+(andarilho.charAt(posicao)=='l'?43:-43));   
-            tr.play();
-        }else{
-            TranslateTransition tr= new TranslateTransition(Duration.millis(500), this) ;
-            tr.setFromY(this.getTranslateY());
-            tr.setToY(this.getTranslateY()+(andarilho.charAt(posicao)=='c'?-60:(andarilho.charAt(posicao)=='C'?-120:60)));   
-            tr.play();
+        if (!avanca) {
+            posicao--;  
         }
-        posicao++;      
-        String bal ="0,1,2,10,19,20,21,29,38,37,36,35,34,49,54,55,56,57,58,59,60,50,39,30,22,11,3,4,5,12,23,31,40,41,42,43,44,45,52,63,62,61,51,32,24,13,6,7,8,9,14,25,26,27,15,16,17,18,28,33,48,47,46,53,64,65,66,67,81,80,79,78,77,91,90,89,76,75,74,73,88,87,86,85,84,72,71,83,70,82,69,68";
-        return Integer.parseInt(bal.split(",")[posicao]);
+        if (andarilho.charAt(posicao)=='l'||andarilho.charAt(posicao)=='d') {
+            int valor = posicao%4==0?48:44;
+            Move((andarilho.charAt(posicao)=='l'?valor:-1*valor), 0);
+        }else if ((andarilho.charAt(posicao)=='T')||(andarilho.charAt(posicao)=='G')) {
+            int valor = (posicao%4==0?48:44)*-1;
+            Move(valor, (andarilho.charAt(posicao)=='T'?-45:45));
+        }else if (andarilho.charAt(posicao)=='P'||andarilho.charAt(posicao)=='H') {
+            int valor = posicao%4==0?48:44;
+            Move(valor, (andarilho.charAt(posicao)=='P'?-45:45));
+        }else{
+            Move(0, (andarilho.charAt(posicao)=='c'?-60:(andarilho.charAt(posicao)=='C'?-120:60)));
+        }
+        if (avanca)
+            posicao++  ;
+        return Integer.parseInt(t.split(",")[posicao]);
+    }
+
+    private void Move(int xval,int yval){
+        TranslateTransition tr= new TranslateTransition(Duration.millis(500), this) ;
+        if (xval!=0) {
+            tr.setFromX(this.getTranslateX());        
+            tr.setToX(this.getTranslateX()+xval); 
+        }if (yval!=0) { 
+            tr.setFromY(this.getTranslateY());
+            tr.setToY(this.getTranslateY()+yval); 
+        }  
+        tr.play(); 
+        tr.setOnFinished(tds -> {
+            System.out.println("Actor: "+nome+" x:"+this.getTranslateX()+" y:"+this.getTranslateY());
+        });
     }
 
     public int getPosicao() {
@@ -58,6 +89,9 @@ public class Actores extends StackPane{
         this.andarilho = andarilho;
     }
 
-    
+    public String getNome() {
+        return nome;
+    }
+
 
 }
