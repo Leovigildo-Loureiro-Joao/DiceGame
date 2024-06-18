@@ -49,7 +49,7 @@ public class Tabuleiro extends GridPane {
         nl.get(azarCasas[2]).Modify(0, 0, 25, 25, "../img/3.jpg","Foste faqueado recue",4);
         nl.get(azarCasas[3]).Modify(0, 0, 25, 30, "../img/4.jpg","Queimaste nas chamas recue ",3);
         nl.get(azarCasas[4]).Modify(0, 0, 25, 30, "../img/5.jpg","A Cobra te mordeu recue",5);
-        nl.get(azarCasas[5]).Modify(0, 0, 25, 25, "../img/2.jpg","Morte Toxica",0);
+        nl.get(azarCasas[5]).Modify(0, 0, 25, 25, "../img/2.jpg","Morte Toxica",-1);
         nl.get(azarCasas[6]).Modify(0, 0, 25, 25, "../img/4.jpg","Queimaste nas chamas recue",3);
 
         nl.get(sorteCasas[0]).Modify(0, 0, 25, 25, "../img/1.png","Maçã avança",3);

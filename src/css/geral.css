@@ -13,16 +13,21 @@ Label.second{
 }
 
 Border{
-    -fx-background-color: rgb(0, 36, 125);
+    -fx-background-color: black;
     -fx-pref-width: 200px;
 
 }
 
 Border JFXButton{
-    -fx-pref-width: 100;
-    -fx-pref-height: 50;
-    -fx-background-color: rgb(255, 255, 255);
-
+    -fx-pref-width: 200;
+    -fx-pref-height: 90;
+    -fx-background-color: #E14312;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+    -fx-font-size: 14pt;
+}
+Border Hbox{
+   -fx-alignment: center;
 }
 
 Blocos{
@@ -43,10 +48,22 @@ Actores Circle{
 Tabuleiro{
     -fx-max-width: 800;
     -fx-max-height: 500;
-    -fx-background-color: aqua;
+    -fx-background-color: linear-gradient(aqua,rgb(0, 213, 255));
     -fx-padding: 20;
     -fx-effect: dropshadow(three-pass-box,#0000002d,8,0.5,1,1);
-    -fx-border-color: aqua;
+    -fx-border-color: transparent;
 }
 
+.fundo{
+    -fx-background-repeat: repeat;
+    -fx-background-color: green;
+}
 
+Dialog.active{
+    -fx-background-color: #ffffff;
+}
+
+Dialog.active Label{
+    -fx-text-fill: rgb(255, 136, 0);
+    -fx-font-size: 13pt;
+}
