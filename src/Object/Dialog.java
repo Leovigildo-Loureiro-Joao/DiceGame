@@ -40,7 +40,7 @@ public class Dialog extends StackPane{
 
     public static StackPane init(){
         StackPane p = new StackPane();
-        this.setMaxSize(200, 200);
+        p.setMaxSize(200, 200);
         return p;
     }
 
