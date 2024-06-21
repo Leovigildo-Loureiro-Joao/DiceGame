@@ -18,6 +18,14 @@ Border{
 
 }
 
+Border VBox,DialogPane VBox,#dialog VBox{
+   -fx-alignment: center;
+}
+
+DialogPane{
+    -fx-background-color: white;
+ 
+}
 Border JFXButton{
     -fx-pref-width: 200;
     -fx-pref-height: 90;
@@ -26,6 +34,56 @@ Border JFXButton{
     -fx-alignment: center;
     -fx-font-size: 14pt;
 }
+
+DialogPane JFXButton{
+    -fx-pref-width: 70;
+    -fx-pref-height: 70;
+    -fx-background-color: #E14312;
+    -fx-text-fill: white;
+}
+
+TextField{
+    -fx-border-color: #E14312;
+    -fx-border-insets: 0 0 1 0;
+    -fx-pref-height: 50;
+    -fx-min-width: 150; -fx-pref-width: 200; -fx-max-width: 200;
+    -fx-border-width: 0 0 1 0;
+    -fx-background-color: transparent;
+    -fx-alignment: center;
+}
+
+DialogPane Group Label{
+    -fx-translate-y: -10;
+    -fx-text-fill:#E14312;
+}
+
+DialogPane Group{
+   -fx-alignment: center;
+}
+
+
+
+Border Label{
+    -fx-text-fill: #E14312;
+}
+
+Border ListView{
+    -fx-translate-y: 170;
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+
+Border ListView *{
+    -fx-background-color: black;
+    -fx-text-fill: white;
+}
+
+Border ListView Label{
+    -fx-translate-x: 10;
+    -fx-translate-y: -5;
+}
+
 Border Hbox{
    -fx-alignment: center;
 }
@@ -59,11 +117,13 @@ Tabuleiro{
     -fx-background-color: green;
 }
 
-Dialog.active{
+#dialog{
     -fx-background-color: #ffffff;
+    -fx-background-radius: 8;
 }
 
-Dialog.active Label{
+#dialog Label{
     -fx-text-fill: rgb(255, 136, 0);
     -fx-font-size: 13pt;
+    -fx-wrap-text: true;
 }

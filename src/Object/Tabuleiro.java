@@ -8,6 +8,7 @@ public class Tabuleiro extends GridPane {
     private int[] sorteCasas={19,60,51,15,77};
     private int[] azarCasas={79,87,49,30,12,84,26};
 
+    @SuppressWarnings({ "rawtypes", "unchecked" })
     public Tabuleiro() {
         int q=0;
         nl = new ArrayList();
@@ -45,8 +46,8 @@ public class Tabuleiro extends GridPane {
         } catch (Exception e) {
         }
         nl.get(azarCasas[0]).Modify(0, -35, 50, 50, "../img/1.jpg","Tempestade devastadara recue",5);
-        nl.get(azarCasas[1]).Modify(0, 0, 25, 25, "../img/2.jpg","Morte Toxica",0);
-        nl.get(azarCasas[2]).Modify(0, 0, 25, 25, "../img/3.jpg","Foste faqueado recue",4);
+        nl.get(azarCasas[1]).Modify(0, 0, 25, 25, "../img/2.jpg","Morte Toxica",-1);
+        nl.get(azarCasas[2]).Modify(0, 0, 25, 25, "../img/3.jpg","Foste faqueado recue",3);
         nl.get(azarCasas[3]).Modify(0, 0, 25, 30, "../img/4.jpg","Queimaste nas chamas recue ",3);
         nl.get(azarCasas[4]).Modify(0, 0, 25, 30, "../img/5.jpg","A Cobra te mordeu recue",5);
         nl.get(azarCasas[5]).Modify(0, 0, 25, 25, "../img/2.jpg","Morte Toxica",-1);

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.jar</jar>
+  <outfile>C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe</outfile>
+  <errTitle>Oops</errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>high</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>true</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\src\img\icons8_strategy_game.ico</icon>
+  <classPath>
+    <mainClass>Tabuleiro.App</mainClass>
+  </classPath>
+  <jre>
+    <path>zulu22.30.13-ca-fx-jdk22.0.1-win_x64</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>21.0.1</minVersion>
+    <maxVersion>22.0.1</maxVersion>
+    <initialHeapSize>500</initialHeapSize>
+    <initialHeapPercent>50</initialHeapPercent>
+    <maxHeapSize>1024</maxHeapSize>
+    <maxHeapPercent>100</maxHeapPercent>
+    <opt>--enable-preview</opt>
+  </jre>
+</launch4jConfig>

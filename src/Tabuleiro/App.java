@@ -2,20 +2,17 @@ package Tabuleiro;
 
 import java.util.HashMap;
 import java.util.Random;
-import java.util.concurrent.CompletableFuture;
 
 import Object.Actores;
 import Object.Blocos;
 import Object.Border;
-import Object.Dados;
-import Object.Dialog;
+import Object.DialogGame;
+import Object.ItenList;
 import Object.Tabuleiro;
 import javafx.animation.PauseTransition;
 import javafx.animation.ScaleTransition;
 import javafx.application.Application;
-import javafx.application.Platform;
 import javafx.scene.Scene;
-import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
@@ -32,24 +29,29 @@ public class App extends Application{
     private int vez;
     private BorderPane p= new BorderPane();
     private Border borda =new Border();
-    private Dialog dialog=new Dialog();
+    private DialogGame dialog=new DialogGame();
     StackPane fundo;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
         stage= primaryStage;
         stage.setScene(new Scene( Tela(), 1140, 630));
-        stage.initStyle(StageStyle.UNDECORATED);    
-        stage.show();   
+        stage.initStyle(StageStyle.UNDECORATED);   
+        dialog.init().show();
+        dialog.getButt().setOnAction(event -> {
+            if (!dialog.getQuanTextField().getText().isBlank()) {
+                Inicializa(Integer.parseInt(dialog.getQuanTextField().getText()));
+                dialog.hide();
+                stage.show();
+            }
+        });
     }
    
     public BorderPane Tela(){
-        fundo=new StackPane(tab,dialog);
+        fundo=new StackPane(tab);
         fundo.getStyleClass().add("fundo");
-        actor = new Actores[2];
-        Inicializa();
         borda.getDados().setOnMouseClicked(event -> {
-            val=4;
+            val=new Random().nextInt(6)+1;
             if (vez==actor.length)
                 vez=0;
             borda.getDados().Video(val);
@@ -58,47 +60,66 @@ public class App extends Application{
             pa.setOnFinished(ev ->  Andado(val, true));
             pa.play();
         });
-        p.getStylesheets().add("file:/C:/Users/Familia_LJ/Documents/Leovigildo/Projectos/Java/Game/src/css/geral.css");
+        p.getStylesheets().add("/css/geral.css");
         p.setLeft(borda);
         p.setCenter(fundo);
-        for (int i = 0; i < actor.length; i++) {
-            fundo.getChildren().add(actor[i]);
-           Reinicie(i); 
-        }
         return p;
     }
 
 
     public void Andado(int r,boolean avanca){
-        val = r;
-        int y = actor[vez].Anda(tab.getBal(),avanca);
-        pd= tab.getNl().get(y);
-        PauseTransition pda = new PauseTransition(Duration.millis(1000));
-        pda.play();
-        pda.setOnFinished(eve -> {
-            ScaleTransition td = new ScaleTransition(Duration.millis(400), pd);
-            td.setFromY(0.5);
-            td.setToY(1);   
-            td.setFromX(0.5);
-            td.setToX(1);
-            td.play();   
-            val--; 
-            if (val>0) {
-                Andado(val,avanca);
-            }else{
-                if (pd.getInfo()!=null) {
-                    dialog.PopUp( pd.getInfo(),  pd.getImg());
-                    Andado(pd.getCasas(), pd.getInfo().contains("avança"));
-                }else
-                    vez++;
-            }
+        if ( actor[vez].getLocal()<107) {
+            val = r;
+            int y = actor[vez].Anda(r==-1?null:tab.getBal(),avanca);
+            pd= tab.getNl().get(y);
+            PauseTransition pda = new PauseTransition(Duration.millis(800));
+            pda.play();
+            pda.setOnFinished(eve -> {
+                ScaleTransition td = new ScaleTransition(Duration.millis(300), pd);
+                td.setFromY(0.5);
+                td.setToY(1);   
+                td.setFromX(0.5);
+                td.setToX(1);
+                td.play();   
+                val--; 
+                if (val>0) {
+                    Andado(val,avanca);
+                }else{
+                    if (pd.getInfo()!=null) {
+                        fundo.getChildren().add(dialog.PopUp( pd.getInfo(),  pd.getImg()));
+                        Andado(pd.getCasas(), pd.getInfo().contains("avança"));
+                    }else{
+                        vez++;
+                        Actualiza();
+                    }
+                       
+                }
+            });
+        }else{
+            stage.close();
+        }
+       
+    }
+
+    private void Inicializa(int n){
+        actor = new Actores[n];
+        for (int i = 0; i < actor.length; i++) {
+            actor[i]=new Actores(i);
+            fundo.getChildren().add(actor[i]);
+            Reinicie(i);
+            borda.getListaGamer().getItems().add(new ItenList(actor[i].getClassificacao(), actor[i].getPosicao(), actor[i].getCor()));
+        }
+    }
+
+    private void Actualiza(){
+        for (int i = 0; i < actor.length; i++) {
+            borda.getListaGamer().getItems().set(i,new ItenList(actor[i].getClassificacao(), actor[i].getPosicao(), actor[i].getCor()));
+        }
+        borda.getListaGamer().getItems().sort((o1, o2) -> {
+            return o2.getPosicao() - o1.getPosicao();
         });
     }
 
-    private void Inicializa(){
-        actor[0]=new Actores("Leovigildo");
-        actor[1]=new Actores("Lionel");
-    }
 
     private void Reinicie(int i){
         actor[i].setTranslateX(-432);

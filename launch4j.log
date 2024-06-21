@@ -1,0 +1,154 @@
+
+
+Version:	3.50
+CmdLine:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	
+Java max ver:	
+Substitute:	JAVA_HOME = C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\platform-tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\emulator\emulator.exe;C:\ProgramData\UNIVALI\Portugol Studio;C:\ProgramData\chocolatey\bin;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code;C:\Users\Familia_LJ\AppData\Local\Microsoft\WindowsApps;C:\Users\Familia_LJ\.dotnet\tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22;C:\Gradle\gradle-7.6.4\bin;C:\wamp64\bin\php\php5.6.40;C:\composer;C:\Program Files (x86)\WiX Toolset v3.14;C:\FPC\3.2.2\bin\i386-Win32;C:\Program Files\Git LFS;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-22.0.1\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\apache-maven-3.9.7\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\;C:\Users\Familia_LJ\scoop\shims;C:\Users\Familia_LJ\.jbang\bin;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22.1\bin;C:\Program Files\BlueStacks_nxt;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Familia_LJ\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Java\zulu21.32.17-ca-fx-jdk21.0.2-win_x64\bin;C:\Users\Familia_LJ\AppData\Roaming\npm;C:\xampp\php;C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Flutter\flutter\bin;C:\Apache24\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin
+JRE paths:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\platform-tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\emulator\emulator.exe;C:\ProgramData\UNIVALI\Portugol Studio;C:\ProgramData\chocolatey\bin;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code;C:\Users\Familia_LJ\AppData\Local\Microsoft\WindowsApps;C:\Users\Familia_LJ\.dotnet\tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22;C:\Gradle\gradle-7.6.4\bin;C:\wamp64\bin\php\php5.6.40;C:\composer;C:\Program Files (x86)\WiX Toolset v3.14;C:\FPC\3.2.2\bin\i386-Win32;C:\Program Files\Git LFS;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-22.0.1\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\apache-maven-3.9.7\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\;C:\Users\Familia_LJ\scoop\shims;C:\Users\Familia_LJ\.jbang\bin;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22.1\bin;C:\Program Files\BlueStacks_nxt;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Familia_LJ\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Java\zulu21.32.17-ca-fx-jdk21.0.2-win_x64\bin;C:\Users\Familia_LJ\AppData\Roaming\npm;C:\xampp\php;C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Flutter\flutter\bin;C:\Apache24\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;zulu22.30.13-ca-fx-jdk22.0.1-win_x64
+Check launcher:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javac.exe (OK)
+Version string: 1.022.000_001 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javaw.exe
+Launcher args:	-jar "C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe"
+Args length:	76/32768 chars
+Exit code:	1
+
+
+Version:	3.50
+CmdLine:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	1.021.000_001
+Java max ver:	1.022.000_001
+Substitute:	JAVA_HOME = C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\platform-tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\emulator\emulator.exe;C:\ProgramData\UNIVALI\Portugol Studio;C:\ProgramData\chocolatey\bin;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code;C:\Users\Familia_LJ\AppData\Local\Microsoft\WindowsApps;C:\Users\Familia_LJ\.dotnet\tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22;C:\Gradle\gradle-7.6.4\bin;C:\wamp64\bin\php\php5.6.40;C:\composer;C:\Program Files (x86)\WiX Toolset v3.14;C:\FPC\3.2.2\bin\i386-Win32;C:\Program Files\Git LFS;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-22.0.1\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\apache-maven-3.9.7\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\;C:\Users\Familia_LJ\scoop\shims;C:\Users\Familia_LJ\.jbang\bin;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22.1\bin;C:\Program Files\BlueStacks_nxt;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Familia_LJ\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Java\zulu21.32.17-ca-fx-jdk21.0.2-win_x64\bin;C:\Users\Familia_LJ\AppData\Roaming\npm;C:\xampp\php;C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Flutter\flutter\bin;C:\Apache24\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin
+JRE paths:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\platform-tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\emulator\emulator.exe;C:\ProgramData\UNIVALI\Portugol Studio;C:\ProgramData\chocolatey\bin;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code;C:\Users\Familia_LJ\AppData\Local\Microsoft\WindowsApps;C:\Users\Familia_LJ\.dotnet\tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22;C:\Gradle\gradle-7.6.4\bin;C:\wamp64\bin\php\php5.6.40;C:\composer;C:\Program Files (x86)\WiX Toolset v3.14;C:\FPC\3.2.2\bin\i386-Win32;C:\Program Files\Git LFS;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-22.0.1\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\apache-maven-3.9.7\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\;C:\Users\Familia_LJ\scoop\shims;C:\Users\Familia_LJ\.jbang\bin;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22.1\bin;C:\Program Files\BlueStacks_nxt;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Familia_LJ\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Java\zulu21.32.17-ca-fx-jdk21.0.2-win_x64\bin;C:\Users\Familia_LJ\AppData\Roaming\npm;C:\xampp\php;C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Flutter\flutter\bin;C:\Apache24\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;zulu22.30.13-ca-fx-jdk22.0.1-win_x64
+Check launcher:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javac.exe (OK)
+Version string: 1.022.000_001 / 64-Bit (OK)
+Launcher:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javaw.exe
+Launcher args:	--enable-preview -jar "C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe"
+Args length:	93/32768 chars
+Exit code:	1
+
+
+Version:	3.50
+CmdLine:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	1.021.000_001
+Java max ver:	1.022.000_001
+Substitute:	JAVA_HOME = C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\platform-tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\emulator\emulator.exe;C:\ProgramData\UNIVALI\Portugol Studio;C:\ProgramData\chocolatey\bin;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code;C:\Users\Familia_LJ\AppData\Local\Microsoft\WindowsApps;C:\Users\Familia_LJ\.dotnet\tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22;C:\Gradle\gradle-7.6.4\bin;C:\wamp64\bin\php\php5.6.40;C:\composer;C:\Program Files (x86)\WiX Toolset v3.14;C:\FPC\3.2.2\bin\i386-Win32;C:\Program Files\Git LFS;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-22.0.1\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\apache-maven-3.9.7\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\;C:\Users\Familia_LJ\scoop\shims;C:\Users\Familia_LJ\.jbang\bin;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22.1\bin;C:\Program Files\BlueStacks_nxt;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Familia_LJ\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Java\zulu21.32.17-ca-fx-jdk21.0.2-win_x64\bin;C:\Users\Familia_LJ\AppData\Roaming\npm;C:\xampp\php;C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Flutter\flutter\bin;C:\Apache24\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin
+JRE paths:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\platform-tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\emulator\emulator.exe;C:\ProgramData\UNIVALI\Portugol Studio;C:\ProgramData\chocolatey\bin;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code;C:\Users\Familia_LJ\AppData\Local\Microsoft\WindowsApps;C:\Users\Familia_LJ\.dotnet\tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22;C:\Gradle\gradle-7.6.4\bin;C:\wamp64\bin\php\php5.6.40;C:\composer;C:\Program Files (x86)\WiX Toolset v3.14;C:\FPC\3.2.2\bin\i386-Win32;C:\Program Files\Git LFS;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-22.0.1\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\apache-maven-3.9.7\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\;C:\Users\Familia_LJ\scoop\shims;C:\Users\Familia_LJ\.jbang\bin;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22.1\bin;C:\Program Files\BlueStacks_nxt;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Familia_LJ\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Java\zulu21.32.17-ca-fx-jdk21.0.2-win_x64\bin;C:\Users\Familia_LJ\AppData\Roaming\npm;C:\xampp\php;C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Flutter\flutter\bin;C:\Apache24\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;zulu22.30.13-ca-fx-jdk22.0.1-win_x64
+Check launcher:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javac.exe (OK)
+Version string: 1.022.000_001 / 64-Bit (OK)
+Main class:	Tabuleiro.App
+Info:		Classpath not defined.
+Launcher:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javaw.exe
+Launcher args:	--enable-preview -classpath "C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe" Tabuleiro.App
+Args length:	113/32768 chars
+Exit code:	1
+
+
+Version:	3.50
+CmdLine:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	1.021.000_001
+Java max ver:	1.022.000_001
+Substitute:	JAVA_HOME = C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\platform-tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\emulator\emulator.exe;C:\ProgramData\UNIVALI\Portugol Studio;C:\ProgramData\chocolatey\bin;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code;C:\Users\Familia_LJ\AppData\Local\Microsoft\WindowsApps;C:\Users\Familia_LJ\.dotnet\tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22;C:\Gradle\gradle-7.6.4\bin;C:\wamp64\bin\php\php5.6.40;C:\composer;C:\Program Files (x86)\WiX Toolset v3.14;C:\FPC\3.2.2\bin\i386-Win32;C:\Program Files\Git LFS;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-22.0.1\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\apache-maven-3.9.7\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\;C:\Users\Familia_LJ\scoop\shims;C:\Users\Familia_LJ\.jbang\bin;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22.1\bin;C:\Program Files\BlueStacks_nxt;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Familia_LJ\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Java\zulu21.32.17-ca-fx-jdk21.0.2-win_x64\bin;C:\Users\Familia_LJ\AppData\Roaming\npm;C:\xampp\php;C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Flutter\flutter\bin;C:\Apache24\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin
+JRE paths:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\platform-tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\emulator\emulator.exe;C:\ProgramData\UNIVALI\Portugol Studio;C:\ProgramData\chocolatey\bin;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code;C:\Users\Familia_LJ\AppData\Local\Microsoft\WindowsApps;C:\Users\Familia_LJ\.dotnet\tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22;C:\Gradle\gradle-7.6.4\bin;C:\wamp64\bin\php\php5.6.40;C:\composer;C:\Program Files (x86)\WiX Toolset v3.14;C:\FPC\3.2.2\bin\i386-Win32;C:\Program Files\Git LFS;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-22.0.1\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\apache-maven-3.9.7\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\;C:\Users\Familia_LJ\scoop\shims;C:\Users\Familia_LJ\.jbang\bin;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22.1\bin;C:\Program Files\BlueStacks_nxt;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Familia_LJ\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Java\zulu21.32.17-ca-fx-jdk21.0.2-win_x64\bin;C:\Users\Familia_LJ\AppData\Roaming\npm;C:\xampp\php;C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Flutter\flutter\bin;C:\Apache24\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;zulu22.30.13-ca-fx-jdk22.0.1-win_x64
+Check launcher:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javac.exe (OK)
+Version string: 1.022.000_001 / 64-Bit (OK)
+Main class:	Tabuleiro.App
+Info:		Classpath not defined.
+Launcher:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javaw.exe
+Launcher args:	--enable-preview -classpath "C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe" Tabuleiro.App java --module-path lib/javafx-sdk-22.0.1/lib --add-modules javafx.controls,javafx.fxml
+Args length:	200/32768 chars
+Exit code:	1
+
+
+Version:	3.50
+CmdLine:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	1.021.000_001
+Java max ver:	1.022.000_001
+Substitute:	JAVA_HOME = C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64
+Substitute:	PATH = C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\platform-tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\emulator\emulator.exe;C:\ProgramData\UNIVALI\Portugol Studio;C:\ProgramData\chocolatey\bin;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code;C:\Users\Familia_LJ\AppData\Local\Microsoft\WindowsApps;C:\Users\Familia_LJ\.dotnet\tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22;C:\Gradle\gradle-7.6.4\bin;C:\wamp64\bin\php\php5.6.40;C:\composer;C:\Program Files (x86)\WiX Toolset v3.14;C:\FPC\3.2.2\bin\i386-Win32;C:\Program Files\Git LFS;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-22.0.1\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\apache-maven-3.9.7\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\;C:\Users\Familia_LJ\scoop\shims;C:\Users\Familia_LJ\.jbang\bin;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22.1\bin;C:\Program Files\BlueStacks_nxt;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Familia_LJ\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Java\zulu21.32.17-ca-fx-jdk21.0.2-win_x64\bin;C:\Users\Familia_LJ\AppData\Roaming\npm;C:\xampp\php;C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Flutter\flutter\bin;C:\Apache24\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin
+JRE paths:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python312\Scripts\;C:\Python312\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\platform-tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\emulator\emulator.exe;C:\ProgramData\UNIVALI\Portugol Studio;C:\ProgramData\chocolatey\bin;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code;C:\Users\Familia_LJ\AppData\Local\Microsoft\WindowsApps;C:\Users\Familia_LJ\.dotnet\tools;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22;C:\Gradle\gradle-7.6.4\bin;C:\wamp64\bin\php\php5.6.40;C:\composer;C:\Program Files (x86)\WiX Toolset v3.14;C:\FPC\3.2.2\bin\i386-Win32;C:\Program Files\Git LFS;C:\Program Files\nodejs\;C:\Program Files\Java\jdk-22.0.1\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\apache-maven-3.9.7\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Familia_LJ\AppData\Local\Programs\Python\Python311\;C:\Users\Familia_LJ\scoop\shims;C:\Users\Familia_LJ\.jbang\bin;C:\Users\Familia_LJ\AppData\Local\Android\Sdk\cmake\3.22.1\bin;C:\Program Files\BlueStacks_nxt;C:\Users\Familia_LJ\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Familia_LJ\AppData\Roaming\Composer\vendor\bin;C:\Program Files\Java\zulu21.32.17-ca-fx-jdk21.0.2-win_x64\bin;C:\Users\Familia_LJ\AppData\Roaming\npm;C:\xampp\php;C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Flutter\flutter\bin;C:\Apache24\bin;C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin;zulu22.30.13-ca-fx-jdk22.0.1-win_x64
+Check launcher:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javaw.exe (OK)
+Check javac:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javac.exe (OK)
+Version string: 1.022.000_001 / 64-Bit (OK)
+Main class:	Tabuleiro.App
+Info:		Classpath not defined.
+Launcher:	C:\Program Files\Java\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javaw.exe
+Launcher args:	--enable-preview -classpath "C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe" Tabuleiro.App
+Args length:	113/32768 chars
+Exit code:	1
+
+
+Version:	3.50
+CmdLine:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\.
+Requires JDK:	Yes
+Requires 64-Bit: Yes
+Java min ver:	1.021.000_001
+Java max ver:	1.022.000_001
+JRE paths:	zulu22.30.13-ca-fx-jdk22.0.1-win_x64
+Check launcher:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javaw.exe (OK)
+Check javac:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javac.exe (OK)
+Version string: 1.022.000_001 / 64-Bit (OK)
+Main class:	Tabuleiro.App
+Info:		Classpath not defined.
+Launcher:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javaw.exe
+Launcher args:	--enable-preview -classpath "C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe" Tabuleiro.App
+Args length:	113/32768 chars
+Exit code:	1
+
+
+Version:	3.50
+CmdLine:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	1.021.000_001
+Java max ver:	1.022.000_001
+JRE paths:	zulu22.30.13-ca-fx-jdk22.0.1-win_x64
+Check launcher:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javaw.exe (OK)
+Version string: 1.022.000_001 / 64-Bit (OK)
+Heap -Xms:	Requested 500 MB / 50%, Available: 613 MB, Heap size: 500 MB
+Heap -Xmx:	Requested 1024 MB / 100%, Available: 613 MB, Heap size: 1024 MB
+Main class:	Tabuleiro.App
+Info:		Classpath not defined.
+Launcher:	C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\zulu22.30.13-ca-fx-jdk22.0.1-win_x64\bin\javaw.exe
+Launcher args:	-Xms500m -Xmx1024m --enable-preview -classpath "C:\Users\Familia_LJ\Documents\Leovigildo\Projectos\Java\Game\Game.exe" Tabuleiro.App
+Args length:	132/32768 chars
+Exit code:	-1073740791
