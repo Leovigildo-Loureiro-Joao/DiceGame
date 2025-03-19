@@ -1,6 +1,4 @@
 ## DiceGame
-
-```markdown
 ![Logo do Projeto](https://icons8.com/icon/80101/icon)
 
 ## Descrição
