@@ -1,48 +1,80 @@
-## DiceGame
-![Logo do Projeto](https://icons8.com/icon/80101/icon)
+# 🎲 DiceGame
 
-## Descrição
+## 📌 Sobre o Projeto
 
-Uma jogo simples baseado na ideia de projectar um jogo de tabuleiro, onde n jogodores podem jogar, o jogo possui armadilhas e certas recompensas dependendo onde o dado parar
+**DiceGame** é um projeto desenvolvido para explorar conceitos fundamentais de programação orientada a objetos através da implementação de um jogo de tabuleiro baseado em dados.
 
-## Índice
+O jogo permite a participação de múltiplos jogadores e inclui casas especiais que podem oferecer recompensas ou aplicar penalizações, tornando cada partida dinâmica e imprevisível.
 
-- [Instalação](#instalação)
-- [Uso](#uso)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
-- [Contato](#contato)
-- [Agradecimentos](#agradecimentos)
+Este projeto foi criado com fins de aprendizagem e experimentação durante a evolução das minhas competências em desenvolvimento de software.
 
-## Instalação
+---
 
-Instruções de instalação:
+## 🚀 Funcionalidades
+
+- Suporte para múltiplos jogadores.
+- Movimento baseado em lançamento de dados.
+- Casas com recompensas e penalizações.
+- Lógica básica de jogo de tabuleiro.
+- Estrutura orientada a objetos.
+
+---
+
+## 🎯 Objetivos de Aprendizagem
+
+Durante o desenvolvimento foram praticados conceitos como:
+
+- Programação Orientada a Objetos.
+- Organização de código.
+- Estruturas de decisão.
+- Estruturas de repetição.
+- Modelação da lógica de um jogo.
+
+---
+
+## 📂 Estrutura do Projeto
+
+```text
+DiceGame/
+├── src/
+├── assets/
+└── README.md
+```
+
+---
+
+## ⚙️ Como Executar
+
+Clone o repositório:
 
 ```bash
-git clone https://github.com/Leovigildo-Loureiro-Joao/DiceGame.git  
+git clone https://github.com/Leovigildo-Loureiro-Joao/DiceGame.git
+```
 
-## Uso
+Abra o projeto na sua IDE Java preferida e execute a classe principal.
 
-Como usar o projeto:
+---
 
-Apenas esta em fase de teste qualquer tipo de uso seria muito deficultador por isso criar-se um setup do mesmo na proxima actualizacao
+## 📄 Estado do Projeto
 
-## Contribuição
+> **Arquivado**
 
-Se você quiser contribuir, por favor faça um fork do repositório e envie um pull request.
+Este projeto representa uma etapa do meu processo de aprendizagem e permanece disponível como referência da minha evolução técnica.
 
-## Licença
-Apache License
-Version 2.0, January 2004
-http://www.apache.org/licenses/
+---
 
+## 📄 Licença
 
-## Contato
+Este projeto utiliza a licença Apache 2.0.
 
-Se você tiver alguma dúvida, entre em contato:
+---
 
-- Email: leovigildojoao902@gmail.com
+## 👨‍💻 Autor
 
-## Agradecimentos
+**Leovigildo João**
 
-Agradecimentos a todos que contribuíram para este projeto, e claro a CristecPro .
+---
+
+## 🙏 Créditos
+
+Projeto desenvolvido para fins de aprendizagem e prática de programação.
